@@ -1,0 +1,6 @@
+baseURL: /
+languageCode: zh-Hans
+title: Naldo's Blog
+theme: "PaperMod"
+enableEmoji: true
+hasCJKLanguage: true
