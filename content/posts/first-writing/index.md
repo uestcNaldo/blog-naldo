@@ -1,13 +1,14 @@
 ---
 title: "First Writing"
+slug: first-w
 date: 2022-07-13T00:36:46+08:00
 draft: false
 tags: ["first"]
 ShowBreadCrumbs: true
 ShowWordCount: true
 cover:
-  image: "./moutain.jpg"
-  alt: "cover"
+  image: "moutain.jpg"
+  alt: "moutain"
   relative: true
 ---
 
