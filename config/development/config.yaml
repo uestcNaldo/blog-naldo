@@ -1,1 +1,7 @@
+# 开发模式配置文件
+
+buildDrafts: true
+buildExpired: true
+buildFuture: true
+
 server:
