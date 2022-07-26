@@ -1,7 +1,6 @@
 ---
-title: ""
+title: "搜索"
 layout: "search"
-description: "Description for Search"
 summary: "search"
 placeholder: "搜索文章"
 ---

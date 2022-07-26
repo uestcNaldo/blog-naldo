@@ -5,12 +5,15 @@ languageCode: zh-Hans
 title: Naldo's Blog
 theme: "PaperMod"
 enableEmoji: true
+enableGitInfo: true
 hasCJKLanguage: true
+defaultContentLanguage: zh
+timeZone: Asia/Shanghai
 
 params:
+  # 主题
   defaultTheme: auto
   disableThemeToggle: false
-
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowWordCount: true
@@ -24,9 +27,15 @@ params:
   # 社交图标
   socialIcons:
     - name: github
-      url: "https://github.com/uestcNaldo/blog-naldo"
+      url: "https://github.com/uestcNaldo"
     - name: twitter
       url: "https://twitter.com/Naldo_1295"
+
+  # 编辑文章链接
+  # editPost:
+  #   URL: "https://github.com/uestcNaldo/blog-naldo/tree/master/content"
+  #   Text: "Github编辑"
+  #   appendFilePath: true
 
 menu:
   main:
@@ -47,6 +56,10 @@ menu:
       name: 归档
       url: /archives/
       weight: 30
+    - identifier: github
+      name: Github
+      url: "https://github.com/uestcNaldo/blog-naldo"
+      weight: 40
 
 outputs:
   home:
