@@ -6,7 +6,12 @@
 - 尝试一下静态页面生成器
 - 尝试一下hugo开发
 
-## 部署站点
+## 开发
+```bash
+hugo server
+```
 
-> https://blog.np2gd.date
-
+## 构建
+```bash
+hugo
+```

@@ -10,9 +10,6 @@
 			},
 			"command": "hugo",
 			"args": ["server", "--port=13000", "--bind=0.0.0.0"],
-			// "windows": {
-			// 	"command": ".\\scripts\\dev.bat"
-			// },
 			"problemMatcher": []
 		},
 		{
