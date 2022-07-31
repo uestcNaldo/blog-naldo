@@ -3,8 +3,8 @@ title: "First Writing"
 date: 2022-07-13T00:36:46+08:00
 draft: false
 slug: first-w
-tags: [example]
-categories: [markdown]
+tags: [example, Markdown语法]
+categories: [markdown, hugo]
 author: Naldo
 # 主题特色
 cover:
@@ -76,3 +76,17 @@ function test () {
 - [x] Commit Code
 - [ ] Push commit to Github 🔥
 - [x] Deploy Website
+
+#### Diagrams
+
+##### GoAT Diagrams
+> GoAT: Go ASCII Tool
+```goat
+      .               .                .               .--- 1          .-- 1     / 1
+     / \              |                |           .---+            .-+         +
+    /   \         .---+---.         .--+--.        |   '--- 2      |   '-- 2   / \ 2
+   +     +        |       |        |       |    ---+            ---+          +
+  / \   / \     .-+-.   .-+-.     .+.     .+.      |   .--- 3      |   .-- 3   \ / 3
+ /   \ /   \    |   |   |   |    |   |   |   |     '---+            '-+         +
+ 1   2 3   4    1   2   3   4    1   2   3   4         '--- 4          '-- 4     \ 4
+```
