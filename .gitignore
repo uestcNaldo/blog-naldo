@@ -1,5 +1,5 @@
 # 打包构建文件夹
-public/*
+public/
 
 # 缓存文件
 resources/

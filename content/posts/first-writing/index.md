@@ -1,11 +1,13 @@
 ---
 title: "First Writing"
-date: 2022-07-13T00:36:46+08:00
+# date: 2022-07-13T00:36:46+08:00
 draft: false
 slug: first-w
 tags: [example, Markdown语法]
 categories: [markdown, hugo]
 author: Naldo
+lastmod: 2022-08-04T22:36:46+08:00
+showToc: true
 # 主题特色
 cover:
   image: "images/moutain.jpg"
@@ -58,24 +60,24 @@ function test () {
 #### 图片
 
 图片Markdown语法: `![图片alt](图片链接 "图片title")`  
-水母:
-![水母](images/jellyfish.jpg)
-猫咪:
-![猫咪](images/cat1.avif)
+  - 水母:
+  ![水母](images/jellyfish.jpg)
+  - 猫咪:
+  ![猫咪](images/cat1.avif)
 
 #### 表格
 
-| Syntax    | Description | Test Text   |
-|:----------|:-----------:|------------:|
-| Header    | Title       | Here’s this |
-| Paragraph | Text        | And more    |
+| Syntax    | Description |   Test Text |
+| :-------- | :---------: | ----------: |
+| Header    |    Title    | Here’s this |
+| Paragraph |    Text     |    And more |
 
 #### 任务
 - [ ] Learn Hugo ❤️
 - [x] Learn Markdown语法 😸
-- [x] Commit Code
+- [x] Commit Code 👻
 - [ ] Push commit to Github 🔥
-- [x] Deploy Website
+- [x] Deploy Website 🧑‍💻
 
 #### Diagrams
 

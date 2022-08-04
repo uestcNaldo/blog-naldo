@@ -3,7 +3,7 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "hugo: server",
+			"label": "hugo:server",
 			"group": {
 				"kind": "build",
 				"isDefault": true
@@ -14,10 +14,34 @@
 		},
 		{
 			"type": "shell",
-			"label": "hugo: build",
+			"label": "hugo:build",
 			"group": "build",
 			"command": "hugo",
-			"args": []
+			"args": [
+				"--gc"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "rsync:部署站点",
+			"group": "build",
+			"command": "D:\\Tools\\cwrsync\\bin\\rsync",
+			"args": [
+				"-av",
+				"--progress",
+				"--delete",
+				"-e",
+				"D:\\Tools\\cwrsync\\bin\\ssh",
+				"public/",
+				"LAVPS:/data/static/blog-hugo/"
+			]
+		},
+		{
+			"type": "shell",
+			"label": "build+deploy",
+			"group": "build",
+			"dependsOrder": "sequence",
+			"dependsOn": ["hugo:build", "rsync:部署站点"]
 		}
 	]
 }

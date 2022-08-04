@@ -11,6 +11,8 @@ defaultContentLanguage: zh
 timeZone: Asia/Shanghai
 
 params:
+  description: 呜啦啦的技术栈Code
+  title: 纳多的博客
   # 主题
   defaultTheme: auto
   disableThemeToggle: false
@@ -21,7 +23,7 @@ params:
 
   # homeInfo模式
   homeInfoParams:
-    Title: 呜啦啦的技术栈
+    Title: 🚀呜啦啦的技术栈🏸
     Content: <Let's Code/>
 
   # 社交图标
@@ -32,10 +34,11 @@ params:
       url: "https://twitter.com/Naldo_1295"
 
   # 编辑文章链接
-  # editPost:
-  #   URL: "https://github.com/uestcNaldo/blog-naldo/tree/master/content"
-  #   Text: "Github编辑"
-  #   appendFilePath: true
+  editPost:
+    URL: "https://github.com/uestcNaldo/blog-naldo/tree/master/content"
+    Text: "Github编辑"
+    appendFilePath: true
+
 
 menu:
   main:
